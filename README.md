@@ -1,6 +1,8 @@
 学号：202166441387
 姓名：马清源
 
+主要源码在myshop文件夹中。
+
 项目主要分为com.shop，resources，webapp三个部分。
 
 com.shop里主要包含了控制层（controller）、数据访问层（mapper）、实体层（pojo）、业务层（service）等内容。
