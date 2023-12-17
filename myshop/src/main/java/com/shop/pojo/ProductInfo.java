@@ -1,0 +1,99 @@
+package com.shop.pojo;
+
+import java.util.Date;
+
+public class ProductInfo {
+    private Integer pId;    //商品ID
+
+    private String pName;   //商品名称
+
+    private String pContent;    //商品具体信息
+
+    private Integer pPrice;     //商品价格
+
+    private String pImage;      //商品图片
+
+    private Integer pNumber;    //商品数量
+
+    private Integer typeId;     //商品种类编号
+
+    private Date pDate;         //商品上架的日期
+
+    public Integer getpId() {
+        return pId;
+    }
+
+    public void setpId(Integer pId) {
+        this.pId = pId;
+    }
+
+    public String getpName() {
+        return pName;
+    }
+
+    public void setpName(String pName) {
+        this.pName = pName == null ? null : pName.trim();
+    }
+
+    public String getpContent() {
+        return pContent;
+    }
+
+    public void setpContent(String pContent) {
+        this.pContent = pContent == null ? null : pContent.trim();
+    }
+
+    public Integer getpPrice() {
+        return pPrice;
+    }
+
+    public void setpPrice(Integer pPrice) {
+        this.pPrice = pPrice;
+    }
+
+    public String getpImage() {
+        return pImage;
+    }
+
+    public void setpImage(String pImage) {
+        this.pImage = pImage == null ? null : pImage.trim();
+    }
+
+    public Integer getpNumber() {
+        return pNumber;
+    }
+
+    public void setpNumber(Integer pNumber) {
+        this.pNumber = pNumber;
+    }
+
+    public Integer getTypeId() {
+        return typeId;
+    }
+
+    public void setTypeId(Integer typeId) {
+        this.typeId = typeId;
+    }
+
+    public Date getpDate() {
+        return pDate;
+    }
+
+    public void setpDate(Date pDate) {
+        this.pDate = pDate;
+    }
+
+    @Override
+    public String toString() {
+        return "ProductInfo{" +
+                "pId=" + pId +
+                ", pName='" + pName + '\'' +
+                ", pContent='" + pContent + '\'' +
+                ", pPrice=" + pPrice +
+                ", pImage='" + pImage + '\'' +
+                ", pNumber=" + pNumber +
+                ", typeId=" + typeId +
+                ", pDate=" + pDate +
+                '}';
+    }
+}
